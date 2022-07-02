@@ -1,0 +1,23 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "Task manager backend using node js and mongodb",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./src/index.js",
+        "test": "jest --watchAll --verbose",
+        "seed": "node ./src/seed.js",
+        "start_with_seed": "node ./src/seed.js && node ./src/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "express-async-errors": "^3.1.1",
+        "joi": "^17.6.0",
+        "mongoose": "^6.3.5",
+        "winston": "^3.7.2"
+    }
+}
