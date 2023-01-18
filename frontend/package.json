@@ -18,7 +18,7 @@
         "styled-components": "^5.3.5"
     },
     "optionalDependencies": {
-    "fsevents": "^2.3.2",
+    "fsevents": "^2.3.2"
     },
     "scripts": {
         "start": "react-scripts start",
